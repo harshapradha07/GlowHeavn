@@ -1,0 +1,6 @@
+{
+  "name": "GlowHeavn - Premium Beauty & Cosmetics",
+  "description": "Luxury beauty, skincare, and cosmetics marketplace with intuitive search, tailored beauty recommendations, and seamless checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
