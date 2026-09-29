@@ -28,6 +28,7 @@ import { CheckoutModal } from './components/CheckoutModal';
 import { UserModal } from './components/UserModal';
 import { SkinQuizModal } from './components/SkinQuizModal';
 import { WishlistDrawer } from './components/WishlistDrawer';
+import { ChatBot } from './components/ChatBot';
 
 export default function App() {
   // Products State
@@ -834,6 +835,12 @@ export default function App() {
         onRemoveFromWishlist={handleToggleWishlist}
         onMoveToBag={handleMoveToBag}
         onOpenDetails={(p) => setSelectedProduct(p)}
+      />
+
+      {/* 8. Live n8n Beauty Concierge ChatBot */}
+      <ChatBot
+        currentUser={currentUser}
+        webhookUrl="https://harshapradha.app.n8n.cloud/webhook/55430de3-a12a-419c-8317-aa1d8be07798/chat"
       />
 
       {/* Toast Notification Container */}
